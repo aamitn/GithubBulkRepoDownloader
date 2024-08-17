@@ -4,7 +4,7 @@ A Java-based desktop application that allows users to download and fork GitHub r
 
 
 ![Screenshot](https://github.com/user-attachments/assets/ecbfa655-d76c-43b7-8860-b48f40a9bdd9)
-
+<img src="[https://your-image-url.type](https://github.com/user-attachments/assets/ecbfa655-d76c-43b7-8860-b48f40a9bdd9)" width="100" height="100">
 
 ## Features
 
