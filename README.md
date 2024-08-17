@@ -42,6 +42,7 @@ A Java-based desktop application that allows users to download and fork GitHub r
 Usage
 -----
 
+
 ### GitHub Token
 
 1.  Generate a GitHub personal access token from [GitHub Settings](https://github.com/settings/tokens) from the account you want the repos to get forked into.
@@ -77,6 +78,7 @@ Build
 3. Paste the created token in this part of the code 
 ![image](https://github.com/user-attachments/assets/dac17fb9-ee55-483e-998e-d9452cb6dca4)
 
+**Our release binaries can download repos without github personal access token to be modified using our company provided token.
 
 4.  Build using Maven or your preferred build tool.
        bash
