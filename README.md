@@ -89,8 +89,8 @@ Releases
 
 You can download the latest releases here:
 
--   [Download .exe](https://github.com/your-repo/releases/download/v1.0/GitHubRepoDownloader.exe)
--   [Download .jar](https://github.com/your-repo/releases/download/v1.0/GitHubRepoDownloader.jar)
+-   [Download .exe]([https://github.com/your-repo/releases/download/v1.0/GitHubRepoDownloader.exe](https://github.com/aamitn/GithubBulkRepoDownloader/releases/download/v0.2/GBRD.exe))
+-   [Download .jar]([https://github.com/your-repo/releases/download/v1.0/GitHubRepoDownloader.jar](https://github.com/aamitn/GithubBulkRepoDownloader/releases/download/v0.2/GithubBulkRepoDownloader-1.0-SNAPSHOT-shaded.jar))
 
 License
 -------
