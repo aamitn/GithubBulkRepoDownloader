@@ -2,7 +2,7 @@
 
 A Java-based desktop application that allows users to download and fork GitHub repositories. This application uses the GitHub API for repository management, OkHttpClient for API requests, and JGit for handling repository cloning.
 
-<img src="https://github.com/user-attachments/assets/ecbfa655-d76c-43b7-8860-b48f40a9bdd9" width="400" height="400">
+<img src="https://github.com/user-attachments/assets/3580ff8f-832f-4654-a6fb-bd0143af9410" width="400" height="400">
 
 ## Features
 
