@@ -37,7 +37,7 @@ public class GithubBulkRepoDownloader extends JFrame {
     private JCheckBox enableForkCheckBox;
     private JProgressBar progressBar;
     private JTextField locationField;
-    private final String accessToken = "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"; // Add this field to your class
+    private final String accessToken = "YOUR_TOKEN_HERE"; // Replace this with your access token https://github.com/settings/tokens/new
 
     public GithubBulkRepoDownloader() {
         setTitle("GBRD v0.2");
