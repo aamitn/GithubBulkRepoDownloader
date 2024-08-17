@@ -115,7 +115,7 @@ public class GithubBulkRepoDownloader extends JFrame {
 
         // Add a label and the text field to the panel
         gbc.gridx = 1;
-        gbc.gridy = 1; // Adjust this as needed
+        gbc.gridy = 6; // Adjust this as needed
         gbc.gridwidth = 1;
         inputPanel.add(new JLabel("Download Location:"), gbc);
         gbc.gridy = 6;
