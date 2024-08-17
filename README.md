@@ -44,7 +44,7 @@ Usage
 
 ### GitHub Token
 
-1.  Generate a GitHub personal access token from [GitHub Settings](https://github.com/settings/tokens).
+1.  Generate a GitHub personal access token from [GitHub Settings](https://github.com/settings/tokens) from the account you want the repos to get forked into.
 2.  Copy the token for use within the application.
 
 ### Forking Repositories
@@ -70,12 +70,19 @@ Build
      ```bash
     git clone https://github.com/your-repo/GitHubRepoDownloader.git
     cd GitHubRepoDownloader`
+     
+2. Generate your github personal access token with repo:public scope (this token is used for downloading the repos)
+![image](https://github.com/user-attachments/assets/88111e57-0d1f-4570-aa0f-4f545f365a72)
 
-   2.  Build using Maven or your preferred build tool.
+3. Paste the created token in this part of the code 
+![image](https://github.com/user-attachments/assets/dac17fb9-ee55-483e-998e-d9452cb6dca4)
+
+
+4.  Build using Maven or your preferred build tool.
        bash
        ```bash
         mvn -X clean package
-3. Get the jars and exe from `target` directory after build.
+5. Get the jars and exe from `target` directory after build.
 
 Technologies Used
 -----------------
