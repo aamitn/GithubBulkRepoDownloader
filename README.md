@@ -4,13 +4,10 @@ A Java-based desktop application that allows users to download and fork GitHub r
 
 ## Features
 
-- Download GitHub repositories by organization or user.
-- Fork repositories to a target GitHub account.
-- Handle API pagination to fetch more than 30 repositories.
-- Progress bar to indicate downloading or forking progress.
-- Error handling and success status updates.
-- Customizable UI built using Java Swing.
-- Supports both `.exe` and `.jar` release formats.
+- Download All GitHub repositories by organization or user.
+- Fork All repositories to a target GitHub account.
+- High Speed Bulk Downloads.
+- Cross-Platform Releases.
 
 ## Installation
 
