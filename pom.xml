@@ -120,7 +120,7 @@
                 <minVersion>21.0.0</minVersion>
                 <jdkPreference>preferJre</jdkPreference>
               </jre>
-              <versionInfo>
+              <versionInfo>mvn
                 <fileVersion>1.0.0.2</fileVersion>
                 <txtFileVersion>${project.version}</txtFileVersion>
                 <fileDescription>${project.name}</fileDescription>
