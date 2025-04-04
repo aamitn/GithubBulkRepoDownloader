@@ -19,6 +19,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.time.LocalDate;
+
+
 
 public class GithubBulkRepoDownloader extends JFrame {
     private JTextField orgNameField;
@@ -37,7 +40,11 @@ public class GithubBulkRepoDownloader extends JFrame {
     private JCheckBox enableForkCheckBox;
     private JProgressBar progressBar;
     private JTextField locationField;
+
+    public int currentYear = LocalDate.now().getYear();
+    
     private final String accessToken = "YOUR_TOKEN_HERE"; // Replace this with your access token https://github.com/settings/tokens/new
+
 
     public GithubBulkRepoDownloader() {
         setTitle("GBRD v0.2");
@@ -74,7 +81,12 @@ public class GithubBulkRepoDownloader extends JFrame {
         setJMenuBar(menuBar);
 
         // Add a heading
-        JLabel headingLabel = new JLabel("<html><p>GitHub Bulk Repo Downloader <sup>(GBRDv0.2)</sup><h4>&copy; 2024  | Developed by Bitmutex Technologies</h4></p></html>", JLabel.CENTER);
+        JLabel headingLabel = new JLabel(
+                "<html><p>GitHub Bulk Repo Downloader <sup>(GBRDv0.2)</sup>" +
+                        "<h4>&copy; " + currentYear + " | Developed by Bitmutex Technologies</h4></p></html>",
+                JLabel.CENTER
+        );
+
         headingLabel.setFont(new Font("Serif", Font.BOLD, 24));
         add(headingLabel, BorderLayout.NORTH);
 

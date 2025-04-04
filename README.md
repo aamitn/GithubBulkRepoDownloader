@@ -72,7 +72,7 @@ Build
     git clone https://github.com/your-repo/GitHubRepoDownloader.git
     cd GitHubRepoDownloader`
      
-2. Generate your github personal access token with repo:public scope (this token is used for downloading the repos)
+2. Generate your github personal access token with repo:public scope [here](https://github.com/settings/tokens/new)(this token is used for downloading the repos)
 ![image](https://github.com/user-attachments/assets/88111e57-0d1f-4570-aa0f-4f545f365a72)
 
 3. Paste the created token in this part of the code 
@@ -80,11 +80,15 @@ Build
 
 **Our release binaries can download repos without github personal access token to be modified using our company provided token.
 
-4.  Build using Maven or your preferred build tool.
-       bash
+4.  Build using Maven or your preferred build tool. (Make sure you have maven installed)
        ```bash
         mvn -X clean package
-5. Get the jars and exe from `target` directory after build.
+    ```
+5. If you dont have maven installed in system, use the provide maven wrapper
+   ```bash
+   mvnw -X clean package
+    ```
+6. Get the jars and exe from `target` directory after build.
 
 Technologies Used
 -----------------
